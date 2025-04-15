@@ -415,7 +415,7 @@ intrest       -> interest
 invliad       -> invalid
 largst        -> largest
 learnign      -> learning
-:learnig       -> learning
+:learnig      -> learning
 liasion       -> liaison
 likly         -> likely
 lisense       -> license
@@ -481,3 +481,5 @@ function      -> function
 ading         -> adding
 Inspria       -> Inspira
 neednig       -> needing
+outgonig      -> outgoing
+taht          -> that

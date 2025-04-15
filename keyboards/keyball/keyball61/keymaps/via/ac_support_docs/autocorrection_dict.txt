@@ -229,6 +229,7 @@ propogate     -> propagate
 proove        -> prove
 psuedo        -> pseudo
 reciept       -> receipt
+
 # Catch misspellings of "receives", "receiving", etc.
 receiev       -> receiv
 reciev        -> receiv
@@ -238,6 +239,7 @@ relevent      -> relevant
 repitition    -> repetition
 safty         -> safety
 saftey        -> safety
+
 # Catch misspellings of "separate", "separating", etc.
 seperat       -> separat
 spectogram    -> spectrogram
@@ -251,6 +253,7 @@ cacheing      -> caching
 complier      -> compiler
 doulbe        -> double
 dyanmic       -> dynamic
+
 # As in "execute", "executable", "executing", ...
 excecut       -> execut
 failse        -> false
@@ -327,6 +330,7 @@ fromthe       -> from the
 :turth        -> truth
 :uesd:        -> used
 :usally       -> usually
+:waht         -> what
 abilties      -> abilities
 abilty        -> ability
 abvove        -> above
@@ -471,4 +475,8 @@ whereever     -> wherever
 wherre        -> where
 wierd         -> weird
 donig         -> doing
-fcuk          -> fuck
+:fcuk         -> fuck
+function      -> function
+ading         -> adding
+:nig          -> ing
+Inspria       -> Inspira

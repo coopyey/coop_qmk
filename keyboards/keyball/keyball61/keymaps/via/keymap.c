@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______  , _______   , _______     , _______  , _______      , QK_REBOOT    ,                                       QK_REBOOT     , _______  , _______  , _______  , _______  , _______  ,
     _______  , LSG(KC_S) , _______     , _______  , _______      , _______      ,                                       CPI_D1K       , CPI_D100 , CPI_I100 , CPI_I1K  , KBC_SAVE , KBC_RST  ,
     XXXXXXX  , _______   , SCRL_DVD    , SCRL_DVI , SCRL_MO      , SCRL_TO      , EE_CLR   ,             EE_CLR       , KC_HOME       , KC_PGDN  , KC_PGUP  , KC_END   , _______  , _______  ,
-    QK_BOOT  , _______   , KC_LEFT     , KC_DOWN  , KC_UP        , KC_RGHT      , _______  ,             _______      , KC_BSPC       ,      /* Trackball */             RGB_LYR  , _______
+    QK_BOOT  , _______   , KC_LEFT     , KC_DOWN  , KC_UP        , KC_RGHT      , AC_TOGG  ,             _______      , KC_BSPC       ,      /* Trackball */             RGB_LYR  , _______
   )
 };
 

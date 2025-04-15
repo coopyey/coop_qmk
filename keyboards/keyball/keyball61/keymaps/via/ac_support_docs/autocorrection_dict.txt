@@ -415,6 +415,7 @@ intrest       -> interest
 invliad       -> invalid
 largst        -> largest
 learnign      -> learning
+:learnig       -> learning
 liasion       -> liaison
 likly         -> likely
 lisense       -> license
@@ -478,5 +479,5 @@ donig         -> doing
 :fcuk         -> fuck
 function      -> function
 ading         -> adding
-:nig          -> ing
 Inspria       -> Inspira
+neednig       -> needing

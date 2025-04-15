@@ -4,6 +4,12 @@
 #undef EE_HANDS
 #undef MASTER_RIGHT
 
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
+
+#define MOUSE_EXTENDED_REPORT
+#define WHEEL_EXTENDED_REPORT
+
 #define SERIAL_USART_TX_PIN GP1
 
 #ifdef POINTING_DEVICE_CONFIGURATION_TRACKPOINT_TRACKBALL
@@ -63,6 +69,9 @@
     #elif POINTING_DEVICE_POSITION_RIGHT
         #define MASTER_RIGHT
     #endif
+#elif defined(POINTING_DEVICE_CONFIGURATION_CIRQUE40_CIRQUE40)
+    #define MASTER_RIGHT
+    #define POINTING_DEVICE_ROTATION_180
 #else
     // No pointing device, default to right.
     #define MASTER_RIGHT
@@ -89,6 +98,9 @@
 
     // Tap for left click.
     #define CIRQUE_PINNACLE_TAP_ENABLE
+    // Corner tap for right click.
+    // #define CIRQUE_PINNACLE_SECONDARY_TAP_ENABLE // Unfortunatly this doesn't seem to work.
+    // Enable circular scroll.
     #define POINTING_DEVICE_GESTURES_SCROLL_ENABLE
 #endif
 
